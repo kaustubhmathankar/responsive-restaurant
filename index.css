@@ -1,21 +1,4 @@
 
-/* *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-
-}
-body,html{
-    width: 100%;
-    height: 100%;
-    margin: 60px 0 0 0;
-    font-family: sans-serif;
-    font-size: 18px;
-    background-color: #f8f8f8;
-    color: #333; */
-
-
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -30,14 +13,13 @@ body{
   color: #333;
 }
 
-/* Header and Navigation */
+
 .cont{
   background-color: white;
   padding: 1rem;
   position: fixed;
   top: 0;
   left: 0;
-  /* z-index: 1000; */
   width: 100% ;
   height:6%;
   
@@ -88,20 +70,7 @@ nav {
 }
 
 
-.burger {
-  display: none;
-  cursor: pointer;
-}
 
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-/* Main content */
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -109,7 +78,7 @@ main {
 
 }
 
-/* Hero section */
+
 .home {
   display: flex;
   text-align: center;
@@ -210,11 +179,13 @@ main {
     justify-content: center;
     align-items: center;
     
+    
   }
   .right-cont img{
     display: block;
     justify-content: center;
-    width: 75vw;
+    align-items: center;
+    width: 73vw;
     margin: 10px;
     
   }
@@ -242,7 +213,6 @@ main {
   }
   
 .contact-form label{
-  /* flex-basis: calc(50% - 2rem); */
   font-size: 9px;
 }
 
@@ -309,7 +279,7 @@ main {
   color:rgba(255, 68, 0, 0.959);
   font-size: 20px;
 }
-/* Features section */
+
 .features {
   display: flex;
   justify-content: space-between;
@@ -339,7 +309,6 @@ main {
   margin-bottom: 0.5rem;
 }
 
-/* Testimonials section */
 .testimonials {
   background-color: #f4f4f4;
   padding: 4rem 0;
@@ -376,7 +345,7 @@ main {
   font-weight: bold;
 }
 
-/* Menu page styles */
+
 .menu-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -438,7 +407,7 @@ main {
 }
 
 
-/* About page styles */
+
 .about-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -539,8 +508,6 @@ main {
   border-radius: 5px;
   font-weight: bold;
 }
-
-/* Gallery page styles */
 .gallery-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -569,7 +536,7 @@ main {
   transform: scale(1.05);
 }
 
-/* Contact page styles */
+
 .contact-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -654,7 +621,7 @@ main {
   border-radius: 5px;
 }
 
-/* Footer styles */
+
 footer {
   background-color: #333;
   color: #fff;
@@ -687,7 +654,6 @@ footer {
   border-top: 1px solid #555;
 }
 
-/* Responsive styles */
 @media screen and (max-width: 768px) {
   .nav-links {
       display: none;
